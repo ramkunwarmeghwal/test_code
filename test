@@ -1,0 +1,14 @@
+# this code is written in python
+#this is a function which return desired o/p
+def lst(a):
+    l=[]
+    for i in range(len(a)):
+        if len(a)!=0:
+            l.append(a.pop())
+        if len(a)!=0:
+            l.append(a.pop(0))
+    return l
+    
+    
+a=[2,4,6,8,10]
+print(lst(a))
